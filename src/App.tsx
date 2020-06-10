@@ -3,11 +3,11 @@ import Main from './components/Main';
 
 function App() {
 
-  return (
-    <main>
-      <Main/>
-    </main>
-  );
+	return (
+		<>
+			<Main/>
+		</>
+	);
 }
 
 export default App;
