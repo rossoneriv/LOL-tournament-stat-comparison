@@ -7,6 +7,8 @@ const REMOVE_ALL = 'player/REMOVE_ALL';
 const CHANGE_SELECTED_STAT = 'player/CHANGE_SELECTED_STAT';
 const ALL_CHECK_SELECTED_STAT = 'player/ALL_CHECK_SELECTED_STAT';
 const CHANGE_TOURNAMNET = 'player/CHANGE_TOURNAMENT';
+const CHANGE_STAT = 'record/CHANGE_STAT';
+const SELECT_POSITION = 'record/SELECT_POSITION';
 
 export const addPlayer = createAction(ADD_PLAYER, (id: number, player: object) => ({id, player}));
 export const removePlayer = createAction(REMOVE_PLAYER, (id: number) => id);
@@ -14,8 +16,10 @@ export const removeAll = createAction(REMOVE_ALL);
 export const changeSelectedStat = createAction(CHANGE_SELECTED_STAT, (flag: boolean, stat: string) => ({flag, stat}));
 export const allCheckSelectedStat = createAction(ALL_CHECK_SELECTED_STAT);
 export const changeTournament = createAction(CHANGE_TOURNAMNET, (tournament: string) => tournament);
+export const changeStat = createAction(CHANGE_STAT, (stat: string, id: number) => ({stat, id}));
+export const selectPosition = createAction(SELECT_POSITION, (position: string) => position);
 
-const actions = {addPlayer, removePlayer, removeAll, changeSelectedStat, allCheckSelectedStat, changeTournament};
+const actions = {addPlayer, removePlayer, removeAll, changeSelectedStat, allCheckSelectedStat, changeTournament, changeStat, selectPosition};
 type playerAction = ActionType<typeof actions>;
 
 type playerState = {
@@ -24,6 +28,8 @@ type playerState = {
     statList: stat[];
     selectedStat: string[];
     tournament: string;
+    recordStat: string[];
+    recordPosition: string;
 }
 
 type stat = {
@@ -58,7 +64,9 @@ const initialState = {
                 {name: 'Solo Kills', desc: 'Total solokills'}
             ],
     selectedStat: ['Games','Win rate','KDA','Avg kills','Avg deaths','Avg assists','KP%','DMG%','DPM'],
-    tournament: 'Mid-Season Cup 2020'
+    tournament: 'Mid-Season Cup 2020',
+    recordStat: ['KDA', 'KP%', 'DPM', 'GPM', 'Solo Kills'],
+    recordPosition: '',
 }
 
 const getNewMaxStats = (players: any, statList: stat[]) => {
@@ -114,7 +122,16 @@ const player = createReducer<playerState, playerAction>(initialState, {
             ...state,
             tournament: action.payload
         }
-    }
+    },
+    [CHANGE_STAT]: (state, action) => {
+        return {...state, recordStat: [...state.recordStat.map((s, i) => {
+            if(i === action.payload.id)  return action.payload.stat;
+            else return s;
+        })]}
+    },
+    [SELECT_POSITION]: (state, action) => {
+        return {...state, recordPosition: action.payload.position}
+    },
 });
 
 export default player;

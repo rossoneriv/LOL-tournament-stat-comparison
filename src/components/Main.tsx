@@ -1,12 +1,15 @@
 import React from 'react';
-import useTournament from '../hooks/useTournament';
-import usePlayer from '../hooks/usePlayer';
 import StatSelectModal from './StatSelectModal';
-import TournamentSelect from './TournamentSelect';
+import styled from 'styled-components';
+import { MainContainer, MainWrapper, Footer} from './common';
+import Spinner from 'react-bootstrap/Spinner';
+
 import PlayerSelector from './PlayerSelector';
 import PlayerBox from './PlayerBox';
-import Spinner from 'react-bootstrap/Spinner';
-import styled from 'styled-components';
+import useTournament from '../hooks/useTournament';
+import usePlayer from '../hooks/usePlayer';
+// import Comparison from './Comparison';
+import CommonHeader from './CommonHeader';
 
 const Main = () => {
     const {pending, error} = useTournament();
@@ -14,17 +17,13 @@ const Main = () => {
 
     return (
         <>  
-            <Header>
-                <b>LOL Pro Stat Comparison</b>
-                <MenuWrap>
-                    <SelectWrap>
-                        <TournamentSelect/>
-                    </SelectWrap>
-                    <StatSelectModal/>
-                </MenuWrap>
-            </Header>
-            
+            <CommonHeader/>
             <MainContainer>
+                <StatSelectButton>
+                {/* <div style={{position: 'fixed', top: '150px', left: '50px', zIndex: 10}}> */}
+                    <StatSelectModal/>
+                {/* </div> */}
+                </StatSelectButton>
                 <MainWrapper>
                     { pending && 
                         <Spinner animation="border" role="status">
@@ -68,96 +67,25 @@ const Main = () => {
                 </MainWrapper>
             </MainContainer>
             <Footer>
-
+                <p> &copy; 2020. Cheol-Woo Noh Website All Rights Reserved.</p>
             </Footer>
         </>
     );
 }
 
-// styled-components
-const Header = styled.nav`
-	background: #343a40;
-	position: fixed;
-	width: 100%;
-	top: 0;
-	left: 0;
-    padding: .5rem 10rem;
-    display: flex;
-    flex-flow: row nowrap;
-    color: white;
-    font-size: 1.5em;
-    justify-content: center;
-    align-items: center;
-    z-index: 100;
-    opacity: 0.9;
-
-    @media screen and (max-width: 986px) {
-        padding-right: 5rem;
-        padding-left: 5rem;
-    }
-
-    @media screen and (max-width: 640px) {
-        padding-right: 1rem;
-        padding-left: 0;
-    }
-`;
-
-const MenuWrap = styled.div`
-    display: flex;
-    flex-basis: auto;
-    flex-grow: 1;
-    justify-content: flex-end;
-    padding: .5rem 1rem;
-    align-items: center;
-`;
-
-const SelectWrap = styled.div`
-    max-width: 250px;
-    padding: 0 .5rem 0 .5rem;
-`;
-
-const MainContainer = styled.div`
-    background-image: url('background.jpg');
-    min-height: 85vh;
-    background-color: #eae8e3;
-    padding: 70px 10rem 1rem 10rem;
-    overflow-y: auto;
+const StatSelectButton = styled.div`
+    position: fixed;
+    top: 100px;
+    left: 180px;
+    zIndex: 100;
 
     @media screen and (max-width: 1150px) {
-        padding-left: 2rem;
-        padding-right: 2rem;
+        left: 25px;
     }
 
-    @media screen and (max-width: 842px) {
-        padding-top: 94px;
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-
-    @media screen and (max-width: 500px) {
-        padding-top: 124px;
-        padding: 124px 0rem 1rem 0rem;
-        flex-direction: column;
-    }
-`;
-
-const MainWrapper = styled.main`
-    overflow-y: auto;
-    padding: 1rem 1rem;
-    background: white;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-    margin: 0 auto;
-    min-height: 500px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-
-    @media screen and (max-width: 825px) {
-        padding: .15rem .15rem;
-    }
-
-    @media screen and (max-width: 500px) {
-        padding: 0;
+    @media screen and (max-width: 321px) {
+        top: 130px;
+        left: 5px;
     }
 `;
 
@@ -191,11 +119,6 @@ const PlayerBoxSection = styled.section`
     @media screen and (max-width: 865px) {
         margin: 5px;
     }
-`;
-
-const Footer = styled.div`
-    min-height: 15vh;
-    background: #343a40;
 `;
 
 export default Main;

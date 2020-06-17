@@ -1,10 +1,12 @@
 import {combineReducers} from 'redux';
 import tournament from './tournament';
 import player from './player';
+import record from './record';
 
 const rootReducer = combineReducers({
     tournament,
-    player
+    player,
+    record
 });
 
 export default rootReducer;

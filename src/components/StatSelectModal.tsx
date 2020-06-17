@@ -4,6 +4,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import usePlayer from '../hooks/usePlayer';
+import styled from 'styled-components';
 
 const StatSelectModal = () => {
     const {statList, selectedStat, handleChangeCheck, handleAllCheck} = usePlayer();
@@ -13,9 +14,9 @@ const StatSelectModal = () => {
 
     return (
         <>
-            <Button variant="primary" onClick={handleShow}>
-                Stat View/Hide
-            </Button>
+            <AddStatButton onClick={handleShow}>
+                <small><b>Add Stat</b></small>
+            </AddStatButton>
 
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
@@ -47,5 +48,17 @@ const StatSelectModal = () => {
         </>
     )
 }
+
+const AddStatButton = styled.div`
+    border-radius: 20px;
+    background-color: #495057;
+    color: white;
+    width: 60px;
+    height: 28px;
+    text-align: center;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #C0C0C0, 0 0 30px #C0C0C0, 0 0 40px #C0C0C0, 0 0 55px #C0C0C0, 0 0 75px #C0C0C0;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px gray;
+`;
 
 export default StatSelectModal;
