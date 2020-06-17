@@ -1,7 +1,6 @@
 [
   {
     "Player": "Aiming",
-    "Team": "KT",
     "Position": "SUPPORT",
     "Games": 4,
     "Win rate": "100%",
@@ -28,7 +27,6 @@
   },
   {
     "Player": "Aiming",
-    "Team": "KT",
     "Position": "ADC",
     "Games": 42,
     "Win rate": "47.60%",
@@ -55,7 +53,6 @@
   },
   {
     "Player": "ALL IN",
-    "Team": "AF",
     "Position": "MID",
     "Games": 13,
     "Win rate": "46.20%",
@@ -82,7 +79,6 @@
   },
   {
     "Player": "Bdd",
-    "Team": "GEN",
     "Position": "MID",
     "Games": 44,
     "Win rate": "70.50%",
@@ -109,7 +105,6 @@
   },
   {
     "Player": "Ben",
-    "Team": "AF",
     "Position": "SUPPORT",
     "Games": 2,
     "Win rate": "0%",
@@ -136,7 +131,6 @@
   },
   {
     "Player": "BeryL",
-    "Team": "DWG",
     "Position": "SUPPORT",
     "Games": 26,
     "Win rate": "50%",
@@ -163,7 +157,6 @@
   },
   {
     "Player": "BeryL",
-    "Team": "DWG",
     "Position": "ADC",
     "Games": 4,
     "Win rate": "100%",
@@ -190,7 +183,6 @@
   },
   {
     "Player": "bono",
-    "Team": "KT",
     "Position": "JUNGLE",
     "Games": 41,
     "Win rate": "58.50%",
@@ -217,7 +209,6 @@
   },
   {
     "Player": "Canna",
-    "Team": "T1",
     "Position": "TOP",
     "Games": 40,
     "Win rate": "70%",
@@ -244,7 +235,6 @@
   },
   {
     "Player": "Canyon",
-    "Team": "DWG",
     "Position": "JUNGLE",
     "Games": 43,
     "Win rate": "51.20%",
@@ -271,7 +261,6 @@
   },
   {
     "Player": "Chovy",
-    "Team": "DRX",
     "Position": "TOP",
     "Games": 3,
     "Win rate": "66.70%",
@@ -298,7 +287,6 @@
   },
   {
     "Player": "Chovy",
-    "Team": "DRX",
     "Position": "MID",
     "Games": 43,
     "Win rate": "67.40%",
@@ -325,7 +313,6 @@
   },
   {
     "Player": "Clid",
-    "Team": "GEN",
     "Position": "JUNGLE",
     "Games": 44,
     "Win rate": "70.50%",
@@ -352,7 +339,6 @@
   },
   {
     "Player": "Cover",
-    "Team": "APK",
     "Position": "MID",
     "Games": 25,
     "Win rate": "52%",
@@ -379,7 +365,6 @@
   },
   {
     "Player": "CuVee",
-    "Team": "HLE",
     "Position": "TOP",
     "Games": 45,
     "Win rate": "37.80%",
@@ -406,7 +391,6 @@
   },
   {
     "Player": "Cuzz",
-    "Team": "T1",
     "Position": "JUNGLE",
     "Games": 35,
     "Win rate": "68.60%",
@@ -433,7 +417,6 @@
   },
   {
     "Player": "Deft",
-    "Team": "DRX",
     "Position": "SUPPORT",
     "Games": 2,
     "Win rate": "100%",
@@ -460,7 +443,6 @@
   },
   {
     "Player": "Deft",
-    "Team": "DRX",
     "Position": "ADC",
     "Games": 44,
     "Win rate": "65.90%",
@@ -487,7 +469,6 @@
   },
   {
     "Player": "Doran",
-    "Team": "DRX",
     "Position": "TOP",
     "Games": 43,
     "Win rate": "67.40%",
@@ -514,7 +495,6 @@
   },
   {
     "Player": "Dove",
-    "Team": "SB",
     "Position": "MID",
     "Games": 36,
     "Win rate": "41.70%",
@@ -541,7 +521,6 @@
   },
   {
     "Player": "Dread",
-    "Team": "AF",
     "Position": "JUNGLE",
     "Games": 13,
     "Win rate": "30.80%",
@@ -568,7 +547,6 @@
   },
   {
     "Player": "Effort",
-    "Team": "T1",
     "Position": "SUPPORT",
     "Games": 43,
     "Win rate": "69.80%",
@@ -595,7 +573,6 @@
   },
   {
     "Player": "Effort",
-    "Team": "T1",
     "Position": "ADC",
     "Games": 1,
     "Win rate": "0%",
@@ -622,7 +599,6 @@
   },
   {
     "Player": "Ellim",
-    "Team": "T1",
     "Position": "JUNGLE",
     "Games": 9,
     "Win rate": "66.70%",
@@ -649,7 +625,6 @@
   },
   {
     "Player": "Faker",
-    "Team": "T1",
     "Position": "MID",
     "Games": 44,
     "Win rate": "68.20%",
@@ -676,7 +651,6 @@
   },
   {
     "Player": "FATE",
-    "Team": "SB",
     "Position": "MID",
     "Games": 7,
     "Win rate": "14.30%",
@@ -703,7 +677,6 @@
   },
   {
     "Player": "Flawless",
-    "Team": "APK",
     "Position": "JUNGLE",
     "Games": 43,
     "Win rate": "39.50%",
@@ -730,7 +703,6 @@
   },
   {
     "Player": "Fly",
-    "Team": "AF",
     "Position": "MID",
     "Games": 33,
     "Win rate": "39.40%",
@@ -757,7 +729,6 @@
   },
   {
     "Player": "Ghost",
-    "Team": "DWG",
     "Position": "SUPPORT",
     "Games": 3,
     "Win rate": "100%",
@@ -784,7 +755,6 @@
   },
   {
     "Player": "Ghost",
-    "Team": "DWG",
     "Position": "ADC",
     "Games": 14,
     "Win rate": "57.10%",
@@ -811,7 +781,6 @@
   },
   {
     "Player": "GorillA",
-    "Team": "SB",
     "Position": "SUPPORT",
     "Games": 35,
     "Win rate": "37.10%",
@@ -838,7 +807,6 @@
   },
   {
     "Player": "GorillA",
-    "Team": "SB",
     "Position": "ADC",
     "Games": 2,
     "Win rate": "100%",
@@ -865,7 +833,6 @@
   },
   {
     "Player": "Haru",
-    "Team": "HLE",
     "Position": "JUNGLE",
     "Games": 45,
     "Win rate": "37.80%",
@@ -892,7 +859,6 @@
   },
   {
     "Player": "Hoit",
-    "Team": "GRF",
     "Position": "SUPPORT",
     "Games": 13,
     "Win rate": "38.50%",
@@ -919,7 +885,6 @@
   },
   {
     "Player": "Hoya",
-    "Team": "GRF",
     "Position": "TOP",
     "Games": 7,
     "Win rate": "0%",
@@ -946,7 +911,6 @@
   },
   {
     "Player": "HyBrid",
-    "Team": "APK",
     "Position": "ADC",
     "Games": 37,
     "Win rate": "43.20%",
@@ -973,7 +937,6 @@
   },
   {
     "Player": "Ikssu",
-    "Team": "APK",
     "Position": "TOP",
     "Games": 43,
     "Win rate": "39.50%",
@@ -1000,7 +963,6 @@
   },
   {
     "Player": "Irove",
-    "Team": "GRF",
     "Position": "SUPPORT",
     "Games": 42,
     "Win rate": "35.70%",
@@ -1027,7 +989,6 @@
   },
   {
     "Player": "Irove",
-    "Team": "GRF",
     "Position": "ADC",
     "Games": 2,
     "Win rate": "0%",
@@ -1054,7 +1015,6 @@
   },
   {
     "Player": "Jelly",
-    "Team": "AF",
     "Position": "SUPPORT",
     "Games": 41,
     "Win rate": "43.90%",
@@ -1081,7 +1041,6 @@
   },
   {
     "Player": "Jelly",
-    "Team": "AF",
     "Position": "ADC",
     "Games": 3,
     "Win rate": "33.30%",
@@ -1108,7 +1067,6 @@
   },
   {
     "Player": "Joker",
-    "Team": "SB",
     "Position": "SUPPORT",
     "Games": 6,
     "Win rate": "16.70%",
@@ -1135,7 +1093,6 @@
   },
   {
     "Player": "Keine",
-    "Team": "APK",
     "Position": "MID",
     "Games": 18,
     "Win rate": "22.20%",
@@ -1162,7 +1119,6 @@
   },
   {
     "Player": "Kellin",
-    "Team": "GEN",
     "Position": "SUPPORT",
     "Games": 14,
     "Win rate": "64.30%",
@@ -1189,7 +1145,6 @@
   },
   {
     "Player": "Keria",
-    "Team": "DRX",
     "Position": "SUPPORT",
     "Games": 44,
     "Win rate": "65.90%",
@@ -1216,7 +1171,6 @@
   },
   {
     "Player": "Keria",
-    "Team": "DRX",
     "Position": "ADC",
     "Games": 2,
     "Win rate": "100%",
@@ -1243,7 +1197,6 @@
   },
   {
     "Player": "Kiin",
-    "Team": "AF",
     "Position": "TOP",
     "Games": 46,
     "Win rate": "41.30%",
@@ -1270,7 +1223,6 @@
   },
   {
     "Player": "kurO",
-    "Team": "KT",
     "Position": "MID",
     "Games": 46,
     "Win rate": "52.20%",
@@ -1297,7 +1249,6 @@
   },
   {
     "Player": "Lava",
-    "Team": "HLE",
     "Position": "SUPPORT",
     "Games": 1,
     "Win rate": "100%",
@@ -1324,7 +1275,6 @@
   },
   {
     "Player": "Lava",
-    "Team": "HLE",
     "Position": "MID",
     "Games": 6,
     "Win rate": "33.30%",
@@ -1351,7 +1301,6 @@
   },
   {
     "Player": "Lava",
-    "Team": "HLE",
     "Position": "ADC",
     "Games": 4,
     "Win rate": "50%",
@@ -1378,7 +1327,6 @@
   },
   {
     "Player": "Lehends",
-    "Team": "HLE",
     "Position": "SUPPORT",
     "Games": 41,
     "Win rate": "34.10%",
@@ -1405,7 +1353,6 @@
   },
   {
     "Player": "Lehends",
-    "Team": "HLE",
     "Position": "ADC",
     "Games": 4,
     "Win rate": "75%",
@@ -1432,7 +1379,6 @@
   },
   {
     "Player": "Leo",
-    "Team": "SB",
     "Position": "SUPPORT",
     "Games": 1,
     "Win rate": "100%",
@@ -1459,7 +1405,6 @@
   },
   {
     "Player": "Leo",
-    "Team": "SB",
     "Position": "ADC",
     "Games": 18,
     "Win rate": "38.90%",
@@ -1486,7 +1431,6 @@
   },
   {
     "Player": "Life",
-    "Team": "GEN",
     "Position": "SUPPORT",
     "Games": 25,
     "Win rate": "76%",
@@ -1513,7 +1457,6 @@
   },
   {
     "Player": "Life",
-    "Team": "GEN",
     "Position": "ADC",
     "Games": 5,
     "Win rate": "60%",
@@ -1540,7 +1483,6 @@
   },
   {
     "Player": "Lonely",
-    "Team": "SB",
     "Position": "TOP",
     "Games": 11,
     "Win rate": "45.50%",
@@ -1567,7 +1509,6 @@
   },
   {
     "Player": "Malrang",
-    "Team": "KT",
     "Position": "JUNGLE",
     "Games": 5,
     "Win rate": "0%",
@@ -1594,7 +1535,6 @@
   },
   {
     "Player": "Mia",
-    "Team": "APK",
     "Position": "SUPPORT",
     "Games": 4,
     "Win rate": "50%",
@@ -1621,7 +1561,6 @@
   },
   {
     "Player": "Mystic",
-    "Team": "AF",
     "Position": "SUPPORT",
     "Games": 3,
     "Win rate": "33.30%",
@@ -1648,7 +1587,6 @@
   },
   {
     "Player": "Mystic",
-    "Team": "AF",
     "Position": "ADC",
     "Games": 39,
     "Win rate": "43.60%",
@@ -1675,7 +1613,6 @@
   },
   {
     "Player": "Naehyun",
-    "Team": "GRF",
     "Position": "MID",
     "Games": 1,
     "Win rate": "0%",
@@ -1702,7 +1639,6 @@
   },
   {
     "Player": "Nuclear",
-    "Team": "DWG",
     "Position": "SUPPORT",
     "Games": 1,
     "Win rate": "100%",
@@ -1729,7 +1665,6 @@
   },
   {
     "Player": "Nuclear",
-    "Team": "DWG",
     "Position": "ADC",
     "Games": 25,
     "Win rate": "40%",
@@ -1756,7 +1691,6 @@
   },
   {
     "Player": "Nuguri",
-    "Team": "DWG",
     "Position": "TOP",
     "Games": 43,
     "Win rate": "51.20%",
@@ -1783,7 +1717,6 @@
   },
   {
     "Player": "OnFleek",
-    "Team": "SB",
     "Position": "JUNGLE",
     "Games": 29,
     "Win rate": "31%",
@@ -1810,7 +1743,6 @@
   },
   {
     "Player": "Punch",
-    "Team": "SB",
     "Position": "JUNGLE",
     "Games": 14,
     "Win rate": "50%",
@@ -1837,7 +1769,6 @@
   },
   {
     "Player": "Pyosik",
-    "Team": "DRX",
     "Position": "JUNGLE",
     "Games": 46,
     "Win rate": "67.40%",
@@ -1864,7 +1795,6 @@
   },
   {
     "Player": "Quad",
-    "Team": "DRX",
     "Position": "MID",
     "Games": 3,
     "Win rate": "66.70%",
@@ -1891,7 +1821,6 @@
   },
   {
     "Player": "Rascal",
-    "Team": "GEN",
     "Position": "TOP",
     "Games": 44,
     "Win rate": "70.50%",
@@ -1918,7 +1847,6 @@
   },
   {
     "Player": "Ray",
-    "Team": "KT",
     "Position": "TOP",
     "Games": 6,
     "Win rate": "33.30%",
@@ -1945,7 +1873,6 @@
   },
   {
     "Player": "Roach",
-    "Team": "T1",
     "Position": "TOP",
     "Games": 4,
     "Win rate": "50%",
@@ -1972,7 +1899,6 @@
   },
   {
     "Player": "Route",
-    "Team": "SB",
     "Position": "SUPPORT",
     "Games": 1,
     "Win rate": "100%",
@@ -1999,7 +1925,6 @@
   },
   {
     "Player": "Route",
-    "Team": "SB",
     "Position": "ADC",
     "Games": 23,
     "Win rate": "30.40%",
@@ -2026,7 +1951,6 @@
   },
   {
     "Player": "Ruler",
-    "Team": "GEN",
     "Position": "SUPPORT",
     "Games": 5,
     "Win rate": "60%",
@@ -2053,7 +1977,6 @@
   },
   {
     "Player": "Ruler",
-    "Team": "GEN",
     "Position": "ADC",
     "Games": 39,
     "Win rate": "71.80%",
@@ -2080,7 +2003,6 @@
   },
   {
     "Player": "Secret",
-    "Team": "APK",
     "Position": "SUPPORT",
     "Games": 39,
     "Win rate": "38.50%",
@@ -2107,7 +2029,6 @@
   },
   {
     "Player": "ShowMaker",
-    "Team": "DWG",
     "Position": "MID",
     "Games": 43,
     "Win rate": "51.20%",
@@ -2134,7 +2055,6 @@
   },
   {
     "Player": "SoHwan",
-    "Team": "KT",
     "Position": "TOP",
     "Games": 40,
     "Win rate": "55%",
@@ -2161,7 +2081,6 @@
   },
   {
     "Player": "Spirit",
-    "Team": "AF",
     "Position": "JUNGLE",
     "Games": 33,
     "Win rate": "45.50%",
@@ -2188,7 +2107,6 @@
   },
   {
     "Player": "SS",
-    "Team": "AF",
     "Position": "ADC",
     "Games": 4,
     "Win rate": "25%",
@@ -2215,7 +2133,6 @@
   },
   {
     "Player": "Summit",
-    "Team": "SB",
     "Position": "TOP",
     "Games": 32,
     "Win rate": "34.40%",
@@ -2242,7 +2159,6 @@
   },
   {
     "Player": "Sword",
-    "Team": "GRF",
     "Position": "TOP",
     "Games": 28,
     "Win rate": "35.70%",
@@ -2269,7 +2185,6 @@
   },
   {
     "Player": "Tarzan",
-    "Team": "GRF",
     "Position": "JUNGLE",
     "Games": 44,
     "Win rate": "34.10%",
@@ -2296,7 +2211,6 @@
   },
   {
     "Player": "Teddy",
-    "Team": "T1",
     "Position": "SUPPORT",
     "Games": 1,
     "Win rate": "0%",
@@ -2323,7 +2237,6 @@
   },
   {
     "Player": "Teddy",
-    "Team": "T1",
     "Position": "ADC",
     "Games": 43,
     "Win rate": "69.80%",
@@ -2350,7 +2263,6 @@
   },
   {
     "Player": "Tempt",
-    "Team": "HLE",
     "Position": "MID",
     "Games": 39,
     "Win rate": "38.50%",
@@ -2377,7 +2289,6 @@
   },
   {
     "Player": "Trigger",
-    "Team": "APK",
     "Position": "ADC",
     "Games": 6,
     "Win rate": "16.70%",
@@ -2404,7 +2315,6 @@
   },
   {
     "Player": "TusiN",
-    "Team": "KT",
     "Position": "SUPPORT",
     "Games": 42,
     "Win rate": "47.60%",
@@ -2431,7 +2341,6 @@
   },
   {
     "Player": "TusiN",
-    "Team": "KT",
     "Position": "ADC",
     "Games": 4,
     "Win rate": "100%",
@@ -2458,7 +2367,6 @@
   },
   {
     "Player": "Ucal",
-    "Team": "GRF",
     "Position": "MID",
     "Games": 43,
     "Win rate": "34.90%",
@@ -2485,7 +2393,6 @@
   },
   {
     "Player": "Untara",
-    "Team": "GRF",
     "Position": "TOP",
     "Games": 9,
     "Win rate": "55.60%",
@@ -2512,7 +2419,6 @@
   },
   {
     "Player": "Viper",
-    "Team": "GRF",
     "Position": "SUPPORT",
     "Games": 2,
     "Win rate": "0%",
@@ -2539,7 +2445,6 @@
   },
   {
     "Player": "Viper",
-    "Team": "GRF",
     "Position": "ADC",
     "Games": 42,
     "Win rate": "35.70%",
@@ -2566,7 +2471,6 @@
   },
   {
     "Player": "Vsta",
-    "Team": "HLE",
     "Position": "SUPPORT",
     "Games": 3,
     "Win rate": "66.70%",
@@ -2593,7 +2497,6 @@
   },
   {
     "Player": "Vsta",
-    "Team": "HLE",
     "Position": "ADC",
     "Games": 32,
     "Win rate": "34.40%",
@@ -2620,7 +2523,6 @@
   },
   {
     "Player": "Zenit",
-    "Team": "HLE",
     "Position": "ADC",
     "Games": 5,
     "Win rate": "20%",
