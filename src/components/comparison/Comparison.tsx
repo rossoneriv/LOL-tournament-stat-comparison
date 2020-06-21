@@ -1,17 +1,16 @@
 import React from 'react';
-import StatSelectModal from './StatSelectModal';
 import styled from 'styled-components';
-import { MainContainer, MainWrapper, Footer} from './common';
 import Spinner from 'react-bootstrap/Spinner';
 
+import StatSelectModal from './StatSelectModal';
+import { MainContainer, MainWrapper, Footer} from '../common';
 import PlayerSelector from './PlayerSelector';
 import PlayerBox from './PlayerBox';
-import useTournament from '../hooks/useTournament';
-import usePlayer from '../hooks/usePlayer';
-// import Comparison from './Comparison';
-import CommonHeader from './CommonHeader';
+import useTournament from '../../hooks/useTournament';
+import usePlayer from '../../hooks/usePlayer';
+import CommonHeader from '../CommonHeader';
 
-const Main = () => {
+const Comparison = () => {
     const {pending, error} = useTournament();
     const {players} = usePlayer();
 
@@ -20,9 +19,7 @@ const Main = () => {
             <CommonHeader/>
             <MainContainer>
                 <StatSelectButton>
-                {/* <div style={{position: 'fixed', top: '150px', left: '50px', zIndex: 10}}> */}
                     <StatSelectModal/>
-                {/* </div> */}
                 </StatSelectButton>
                 <MainWrapper>
                     { pending && 
@@ -121,4 +118,4 @@ const PlayerBoxSection = styled.section`
     }
 `;
 
-export default Main;
+export default Comparison;

@@ -2,28 +2,22 @@ import React, {useState} from 'react';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { AgGridReact } from 'ag-grid-react';
-import 'ag-grid-community/dist/styles/ag-grid.css';
-import 'ag-grid-community/dist/styles/ag-theme-alpine.css';
-import usePlayer from '../hooks/usePlayer';
 import styled from 'styled-components';
+import styledComponentsTS from 'styled-components-ts';
+
+import usePlayer from '../../hooks/usePlayer';
+import SortedListTable from '../record/SortedListTable';
 
 type props = {
     id: number;
 }
 
 const PlayerSelector = ({id}: props) => {
-    const {players, data, handleRemoveSelect, handleAddPlayer} = usePlayer();
+    const {players, handleRemoveSelect, handleAddPlayer} = usePlayer();
     const [show, setShow] = useState(false);
     
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
-
-    const columnDefs: {headerName: string, field: string, sortable: boolean, width: number, filter?: boolean}[] = [
-        {headerName: 'Player', field: 'Player', sortable: true, filter: true, width: 150},
-        {headerName: 'Position', field: 'Position', sortable: true, width: 150},
-        {headerName: 'Games', field: 'Games', sortable: true, width: 130},
-    ];
 
     return(
         <>
@@ -39,30 +33,32 @@ const PlayerSelector = ({id}: props) => {
                     </ImgWrap>
                     <InfoWrap>
                         <img src={`position/${players[id-1].Position}.png`} alt={players[id-1].Position}></img>
-                        <h4 style={{alignSelf:'center'}}><b>{players[id-1].Player}</b></h4>
+                        <PlayerName>{players[id-1].Player}</PlayerName>
                     </InfoWrap>
                 </PlayerInfo>
             }
 
-            <Modal show={show} onHide={handleClose}>
+            <ModalStyled show={show} onHide={handleClose} className='ttt'>
                 <Modal.Header closeButton>
                     <Modal.Title>Players</Modal.Title>
                 </Modal.Header>
-                <Modal.Body>
-                    <div className="ag-theme-alpine" style={ {height: '700px', width: '450px'} }>
-                        <AgGridReact
-                            columnDefs={columnDefs}
-                            rowData={data}
-                            onRowClicked={(e: any) => {handleAddPlayer(e, id); handleClose()}}>
-                        </AgGridReact>
-                    </div>
-                </Modal.Body>
+                <ModalBody>
+                    <SortedListTable
+                        statList={[{name: 'Player', desc: ''}, {name: 'Position', desc: ''}, {name: 'Games', desc: ''}]}
+                        recordPosition={''}
+                        showRegular={false}
+                        id={id}
+                        handleClose={handleClose}
+                        handleAddPlayer={handleAddPlayer}
+                        isPlayerSelector={true}
+                    />
+                </ModalBody>
                 <Modal.Footer>
                 <Button variant="secondary" onClick={handleClose}>
                     Close
                 </Button>
                 </Modal.Footer>
-            </Modal>
+            </ModalStyled>
         </>
     );
 }
@@ -125,6 +121,30 @@ const RemovePlayer = styled.div`
     font-weight: bold;
     font-size: larger;
     padding: 3px 10px;
+`;
+
+const PlayerName = styled.h4`
+    align-self: center;
+    font-weight: bold;
+`;
+
+const ModalBody = styled(Modal.Body)`
+    height: 750px;
+    overflow-y: scroll;
+
+    @media screen and (max-width: 1025px) {
+        height: 600px;
+    }
+
+    @media screen and (max-width: 480px) {
+        height: 500px;
+    }
+`;
+
+const ModalStyled = styledComponentsTS<any>(styled(Modal))`
+    .modal-dialog {
+        width: fit-content;
+    }
 `;
 
 export default PlayerSelector;

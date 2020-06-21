@@ -1,8 +1,9 @@
 import React from 'react';
-import usePlayer from '../hooks/usePlayer';
 import styled from 'styled-components';
 import styledComponentsTS from 'styled-components-ts';
 import Badge from 'react-bootstrap/Badge';
+
+import usePlayer from '../../hooks/usePlayer';
 
 type props = {
     id: number;
@@ -12,7 +13,7 @@ const PlayerBox = ({id}: props) => {
     const {players, selectedStat, maxStats} = usePlayer();
 
     return (
-        <div style={{padding: '1rem 0 1rem 0'}}>
+        <PlayerBoxDiv>
             <div>
                 {Object.keys(players[id-1]).length > 0 
                 ? Object.keys(players[id-1]).map( stat => {
@@ -40,7 +41,7 @@ const PlayerBox = ({id}: props) => {
                 })
                 : <div></div>}
             </div>
-        </div>
+        </PlayerBoxDiv>
     );
 }
 
@@ -80,6 +81,10 @@ const BadgeWrap = styled.span`
     @media screen and (max-width: 1280px) {
         display: none;
     }
+`;
+
+const PlayerBoxDiv = styled.div`
+    padding: 1rem 0 1rem 0;
 `;
 
 export default PlayerBox;

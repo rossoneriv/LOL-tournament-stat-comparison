@@ -3,7 +3,7 @@ import Form from 'react-bootstrap/Form';
 import usePlayer from '../hooks/usePlayer';
 
 const TournamentSelect = () => {
-    const {handleChange} = usePlayer();
+    const {handleChange, tournament} = usePlayer();
     const tournamentList = [
         'Mid-Season Cup 2020',
         'LCK Spring 2020',
@@ -19,7 +19,7 @@ const TournamentSelect = () => {
 
     return (
         <>
-            <Form.Control as='select' size='sm' placeholder="Select tournament" onChange={handleChange}>
+            <Form.Control as='select' size='sm' placeholder="Select tournament" onChange={handleChange} value={tournament}>
                 {tournamentList.map(list => <option key={list}>{list}</option>)}
             </Form.Control>
         </>

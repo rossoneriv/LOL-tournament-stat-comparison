@@ -7,8 +7,8 @@ const usePlayer = () => {
     const {data} = useSelector((state: RootState) => state.tournament);
     const dispatch = useDispatch();
 
-    const handleAddPlayer = (e: any, id: number) => {
-        dispatch(playerActions.addPlayer(id, e.data));
+    const handleAddPlayer = (p: any, id: number) => {
+        dispatch(playerActions.addPlayer(id, p));
     }
 
     const handleRemoveSelect = (id: number) => {

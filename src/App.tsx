@@ -1,12 +1,13 @@
 import React from 'react';
-import Main from './components/Main';
-import Record from './components/Record';
 import {BrowserRouter, Route} from 'react-router-dom';
+
+import Main from './components/comparison/Comparison';
+import Record from './components/record/Record';
 
 function App() {
 
 	return (
-		<BrowserRouter>
+		<BrowserRouter basename={process.env.PUBLIC_URL}>
 			<Route exact path="/" component={Main}/>
 			<Route path="/record" component={Record}/>
 		</BrowserRouter>

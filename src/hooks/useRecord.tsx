@@ -13,6 +13,7 @@ const usePlayer = () => {
     useEffect(() => {
         dispatch(tournamentActions.getTournamentData(tournament));
         dispatch(recordActions.selectPosition(''));
+        dispatch(recordActions.resetSortCondition());
     }, [dispatch, tournament]);
 
     const handleChangeStat = (stat: string, id: number) => {
