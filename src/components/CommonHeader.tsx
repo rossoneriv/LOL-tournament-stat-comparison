@@ -4,13 +4,12 @@ import TournamentSelect from './TournamentSelect';
 import Icon from '@mdi/react';
 import { mdiMenu } from '@mdi/js';
 import styled from 'styled-components';
-import styledComponentsTS from 'styled-components-ts';
 
 const CommonHeader = () => {
 
     return (
         <Header>
-            <NoStyleLink to="/">LOL Pro Stat Comparison</NoStyleLink>
+            <Link to="/" style={{textDecoration: 'none', color: 'white', fontWeight: 'bold'}}>LOL Pro Stat Comparison</Link>
             <MenuWrap>
                 <SelectWrap>
                     <TournamentSelect/>
@@ -19,8 +18,8 @@ const CommonHeader = () => {
                     <MenuIconWrap>
                         <Icon path={mdiMenu} title='Select Menu' size={2} horizontal vertical/>
                         <DropdownMenu className="dropMenuWrap"> 
-                            <NoStyleLink to="/" className='linkMenu'><small>Comparison</small></NoStyleLink>
-                            <NoStyleLink to="/record" className='linkMenu'><small>Record</small></NoStyleLink>
+                            <Link to="/" className='linkMenu' style={{textDecoration: 'none', color: 'black'}}><small>Comparison</small></Link>
+                            <Link to="/record" className='linkMenu' style={{textDecoration: 'none', color: 'black'}}><small>Record</small></Link>
                         </DropdownMenu>
                     </MenuIconWrap>
                 </DropMenuWrap>
@@ -103,21 +102,6 @@ const DropMenuWrap = styled.div`
 
     &:hover .dropMenuWrap {
         display: block;
-    }
-`;
-const NoStyleLink = styledComponentsTS<any>(styled(Link))`
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-
-    &:focus, &:hover, &:visited, &:link, &:active {
-        text-decoration: none;
-        color: white;
-        font-weight: bold;
-    }
-
-    &.linkMenu {
-        color: black;
     }
 `;
 
