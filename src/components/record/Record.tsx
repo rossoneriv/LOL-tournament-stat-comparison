@@ -22,23 +22,23 @@ const Record = () => {
                 <MainWrapper>
                     <RecordDiv className='first'>
                         <RecordDiv className='second'>
-                            <IconWrapper>
-                                <PositionImg src={`position/ALL.png`} alt={'ALL'} onClick={() => {handleSelectPosition('')}}></PositionImg>
+                            <IconWrapper selectedPosition={recordPosition === ''}>
+                                <img src={`position/ALL.png`} alt={'ALL'} onClick={() => {handleSelectPosition('')}}></img>
                             </IconWrapper>
-                            <IconWrapper>
-                                <PositionImg src={`position/TOP.png`} alt={'TOP'} onClick={() => {handleSelectPosition('TOP')}}></PositionImg>
+                            <IconWrapper selectedPosition={recordPosition === 'TOP'}>
+                                <img src={`position/TOP.png`} alt={'TOP'} onClick={() => {handleSelectPosition('TOP')}}></img>
                             </IconWrapper>
-                            <IconWrapper>
-                                <PositionImg src={`position/JUNGLE.png`} alt={'JUNGLE'} onClick={() => {handleSelectPosition('JUNGLE')}}></PositionImg>
+                            <IconWrapper selectedPosition={recordPosition === 'JUNGLE'}>
+                                <img src={`position/JUNGLE.png`} alt={'JUNGLE'} onClick={() => {handleSelectPosition('JUNGLE')}}></img>
                             </IconWrapper>
-                            <IconWrapper>
-                                <PositionImg src={`position/MID.png`} alt={'MID'} onClick={() => {handleSelectPosition('MID')}}></PositionImg>
+                            <IconWrapper selectedPosition={recordPosition === 'MID'}>
+                                <img src={`position/MID.png`} alt={'MID'} onClick={() => {handleSelectPosition('MID')}}></img>
                             </IconWrapper>
-                            <IconWrapper>
-                                <PositionImg src={`position/ADC.png`} alt={'ADC'} onClick={() => {handleSelectPosition('ADC')}}></PositionImg>
+                            <IconWrapper selectedPosition={recordPosition === 'ADC'}>
+                                <img src={`position/ADC.png`} alt={'ADC'} onClick={() => {handleSelectPosition('ADC')}}></img>
                             </IconWrapper>
-                            <IconWrapper>
-                                <PositionImg src={`position/SUPPORT.png`} alt={'SUPPORT'} onClick={() => {handleSelectPosition('SUPPORT')}}></PositionImg>
+                            <IconWrapper selectedPosition={recordPosition === 'SUPPORT'}>
+                                <img src={`position/SUPPORT.png`} alt={'SUPPORT'} onClick={() => {handleSelectPosition('SUPPORT')}}></img>
                             </IconWrapper>
                         </RecordDiv>
                         <StatRanking/>
@@ -64,12 +64,17 @@ const Record = () => {
     )
 }
 
-const IconWrapper = styled.div`
+const IconWrapper = styledComponentsTS<any>(styled.div)`
     width: 60px;
-    height: 60px;
+    height: fit-content;
     cursor: pointer;
     display: flex;
     justify-content: center;
+
+    ${({selectedPosition}) => {
+        if(selectedPosition)    return 'opacity: 1';
+        else                    return 'opacity: 0.25';
+    }}
 `;
 
 const RecordDiv = styled.div`
@@ -99,7 +104,4 @@ const RegularCheckWrap = styled.small`
     padding: 0.1rem 2rem;
 `;
 
-const PositionImg = styledComponentsTS<any>(styled.img)`
-    align-self: center;
-`;
 export default Record;
