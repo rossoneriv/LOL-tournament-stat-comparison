@@ -119,6 +119,7 @@ const RankBox = styled.div`
     padding: 0 1.5rem;
     flex-wrap: wrap;
     overflow-y: auto;
+    justify-content: center;
 `;
 
 const FirstRankPlayer = styled.span`

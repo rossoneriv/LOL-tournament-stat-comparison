@@ -86,6 +86,8 @@ const RecordDiv = styled.div`
 
     &.second {
         align-self: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
     }
 
     &.tableWrap {
