@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b7a897bc970720130927ce53023c42be",
+    "revision": "91421d5bcd238ea9d4564cbb3a294b19",
     "url": "/LOL-tournament-stat-comparison/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/LOL-tournament-stat-comparison/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "447648908e8e7d343c52",
+    "revision": "7584f3fd3218c5243e7c",
     "url": "/LOL-tournament-stat-comparison/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/LOL-tournament-stat-comparison/static/js/2.53906bb3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "447648908e8e7d343c52",
-    "url": "/LOL-tournament-stat-comparison/static/js/main.e0379e45.chunk.js"
+    "revision": "7584f3fd3218c5243e7c",
+    "url": "/LOL-tournament-stat-comparison/static/js/main.bf849f62.chunk.js"
   },
   {
     "revision": "020359c9dc6f72f507d6",
