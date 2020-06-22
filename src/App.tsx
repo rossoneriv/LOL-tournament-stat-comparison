@@ -9,7 +9,7 @@ function App() {
 	return (
 		<BrowserRouter basename={process.env.PUBLIC_URL}>
 			<Route exact path="/" component={Main}/>
-			<Route path="/record" component={Record}/>
+			<Route exact path="/record" component={Record}/>
 		</BrowserRouter>
 	);
 }
