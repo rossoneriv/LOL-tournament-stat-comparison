@@ -72,6 +72,7 @@ const StatRankingWrap = styled.section`
     float: left;
     display: inline-block;
     margin: 10px;
+    width: 210px;
 `;
 
 const ImgWrap = styled.div`
@@ -125,6 +126,7 @@ const RankBox = styled.div`
 const FirstRankPlayer = styled.span`
     align-self: center;
     text-align: center;
+    flex-grow: 10;
 `;
 
 const FisrtRankPlayerStat = styled.b`
