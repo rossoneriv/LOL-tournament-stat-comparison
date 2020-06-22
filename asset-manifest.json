@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/LOL-tournament-stat-comparison/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/LOL-tournament-stat-comparison/static/js/main.513a8dd4.chunk.js",
-    "main.js.map": "/LOL-tournament-stat-comparison/static/js/main.513a8dd4.chunk.js.map",
+    "main.js": "/LOL-tournament-stat-comparison/static/js/main.949359db.chunk.js",
+    "main.js.map": "/LOL-tournament-stat-comparison/static/js/main.949359db.chunk.js.map",
     "runtime-main.js": "/LOL-tournament-stat-comparison/static/js/runtime-main.2270b416.js",
     "runtime-main.js.map": "/LOL-tournament-stat-comparison/static/js/runtime-main.2270b416.js.map",
     "static/css/2.af3c1da9.chunk.css": "/LOL-tournament-stat-comparison/static/css/2.af3c1da9.chunk.css",
     "static/js/2.53906bb3.chunk.js": "/LOL-tournament-stat-comparison/static/js/2.53906bb3.chunk.js",
     "static/js/2.53906bb3.chunk.js.map": "/LOL-tournament-stat-comparison/static/js/2.53906bb3.chunk.js.map",
     "index.html": "/LOL-tournament-stat-comparison/index.html",
-    "precache-manifest.f8ae957c2ac5c9f9a8dacc25a628e962.js": "/LOL-tournament-stat-comparison/precache-manifest.f8ae957c2ac5c9f9a8dacc25a628e962.js",
+    "precache-manifest.03ada0a202802bc75ee49309092f33da.js": "/LOL-tournament-stat-comparison/precache-manifest.03ada0a202802bc75ee49309092f33da.js",
     "service-worker.js": "/LOL-tournament-stat-comparison/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/LOL-tournament-stat-comparison/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.5ecd60fb.chunk.css.map": "/LOL-tournament-stat-comparison/static/css/main.5ecd60fb.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.53906bb3.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.513a8dd4.chunk.js"
+    "static/js/main.949359db.chunk.js"
   ]
 }
