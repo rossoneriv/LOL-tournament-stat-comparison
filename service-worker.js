@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/LOL-tournament-stat-comparison/precache-manifest.6b8be5e8244c32359e7b508793bb91c5.js"
+  "/LOL-tournament-stat-comparison/precache-manifest.81e13eae8783c79667d67571154ec018.js"
 );
 
 self.addEventListener('message', (event) => {
