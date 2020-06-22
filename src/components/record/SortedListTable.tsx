@@ -18,7 +18,7 @@ type props = {
 
 const SortedListTable = ({statList, recordPosition, showRegular, id, handleClose, handleAddPlayer, isPlayerSelector}: props) => {
     const {sortCondition, data, handleAddSortCondition} = useRecord();
-    console.log(isPlayerSelector);
+    
     return (
         <TableMargin>
             <thead>

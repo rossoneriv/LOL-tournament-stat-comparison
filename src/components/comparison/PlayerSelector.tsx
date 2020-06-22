@@ -38,7 +38,7 @@ const PlayerSelector = ({id}: props) => {
                 </PlayerInfo>
             }
 
-            <ModalStyled show={show} onHide={handleClose} className='ttt'>
+            <ModalStyled show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
                     <Modal.Title>Players</Modal.Title>
                 </Modal.Header>
