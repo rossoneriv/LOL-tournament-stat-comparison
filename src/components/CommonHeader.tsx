@@ -105,4 +105,4 @@ const DropMenuWrap = styled.div`
     }
 `;
 
-export default CommonHeader;
+export default React.memo(CommonHeader);

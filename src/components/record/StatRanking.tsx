@@ -138,4 +138,4 @@ const OtherRankPlayerStat = styled.div`
     width: -webkit-fill-available;
 `;
 
-export default StatRanking;
+export default React.memo(StatRanking);

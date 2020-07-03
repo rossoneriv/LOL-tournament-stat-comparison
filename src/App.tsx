@@ -7,7 +7,7 @@ import Record from './components/record/Record';
 function App() {
 
 	return (
-		<HashRouter basename={process.env.PUBLIC_URL}>
+		<HashRouter>
 			<Route exact path="/" component={Main}/>
 			<Route path="/record" component={Record}/>
 		</HashRouter>

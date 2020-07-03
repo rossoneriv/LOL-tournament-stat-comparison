@@ -128,4 +128,4 @@ const DivAlignCenter = styled.div`
     font-weight: bold;
 `;
 
-export default SortedListTable;
+export default React.memo(SortedListTable);

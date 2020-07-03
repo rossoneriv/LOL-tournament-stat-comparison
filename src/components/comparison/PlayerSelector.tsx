@@ -147,4 +147,4 @@ const ModalStyled = styledComponentsTS<any>(styled(Modal))`
     }
 `;
 
-export default PlayerSelector;
+export default React.memo(PlayerSelector);

@@ -87,4 +87,4 @@ const PlayerBoxDiv = styled.div`
     padding: 1rem 0 1rem 0;
 `;
 
-export default PlayerBox;
+export default React.memo(PlayerBox);

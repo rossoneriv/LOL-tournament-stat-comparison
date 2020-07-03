@@ -26,4 +26,4 @@ const TournamentSelect = () => {
     );
 }
 
-export default TournamentSelect;
+export default React.memo(TournamentSelect);

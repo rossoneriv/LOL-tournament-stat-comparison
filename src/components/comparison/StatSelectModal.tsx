@@ -1,11 +1,11 @@
 import React, {useState} from 'react';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
 import styled from 'styled-components';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import usePlayer from '../../hooks/usePlayer';
+import StatSelectModalStat from './StatSelectModalStat';
 
 const StatSelectModal = () => {
     const {statList, selectedStat, handleChangeCheck, handleAllCheck} = usePlayer();
@@ -27,14 +27,7 @@ const StatSelectModal = () => {
                     {statList.map( stat => {
                         const {name, desc} = stat;
                         const checkFlag = selectedStat.includes(name) ;
-                        return <Form.Check 
-                                    key={name} 
-                                    type='checkbox' 
-                                    id={name} 
-                                    label={<><b>{name}</b><small>{desc?' - ' + desc:''}</small></>}
-                                    onChange={handleChangeCheck} 
-                                    checked={checkFlag}
-                                />
+                        return <StatSelectModalStat key={name} name={name} desc={desc} handleChangeCheck={handleChangeCheck} checkFlag={checkFlag}/>
                     })}
                 </Modal.Body>
                 <Modal.Footer>
