@@ -1,25 +1,20 @@
 {
   "files": {
-    "main.css": "/LOL-tournament-stat-comparison/static/css/main.5ecd60fb.chunk.css",
+    "main.css": "/LOL-tournament-stat-comparison/static/css/main.1359096b.chunk.css",
     "main.js": "/LOL-tournament-stat-comparison/static/js/main.54e102ea.chunk.js",
-    "main.js.map": "/LOL-tournament-stat-comparison/static/js/main.54e102ea.chunk.js.map",
     "runtime-main.js": "/LOL-tournament-stat-comparison/static/js/runtime-main.2270b416.js",
-    "runtime-main.js.map": "/LOL-tournament-stat-comparison/static/js/runtime-main.2270b416.js.map",
-    "static/css/2.af3c1da9.chunk.css": "/LOL-tournament-stat-comparison/static/css/2.af3c1da9.chunk.css",
+    "static/css/2.143f9196.chunk.css": "/LOL-tournament-stat-comparison/static/css/2.143f9196.chunk.css",
     "static/js/2.2a265d2a.chunk.js": "/LOL-tournament-stat-comparison/static/js/2.2a265d2a.chunk.js",
-    "static/js/2.2a265d2a.chunk.js.map": "/LOL-tournament-stat-comparison/static/js/2.2a265d2a.chunk.js.map",
     "index.html": "/LOL-tournament-stat-comparison/index.html",
-    "precache-manifest.1aa237e3f84d4ed444731021d1dab970.js": "/LOL-tournament-stat-comparison/precache-manifest.1aa237e3f84d4ed444731021d1dab970.js",
+    "precache-manifest.696efdb93844caf8db349842a7502563.js": "/LOL-tournament-stat-comparison/precache-manifest.696efdb93844caf8db349842a7502563.js",
     "service-worker.js": "/LOL-tournament-stat-comparison/service-worker.js",
-    "static/css/2.af3c1da9.chunk.css.map": "/LOL-tournament-stat-comparison/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.5ecd60fb.chunk.css.map": "/LOL-tournament-stat-comparison/static/css/main.5ecd60fb.chunk.css.map",
     "static/js/2.2a265d2a.chunk.js.LICENSE.txt": "/LOL-tournament-stat-comparison/static/js/2.2a265d2a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2270b416.js",
-    "static/css/2.af3c1da9.chunk.css",
+    "static/css/2.143f9196.chunk.css",
     "static/js/2.2a265d2a.chunk.js",
-    "static/css/main.5ecd60fb.chunk.css",
+    "static/css/main.1359096b.chunk.css",
     "static/js/main.54e102ea.chunk.js"
   ]
 }
