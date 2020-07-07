@@ -1,15 +1,17 @@
-import React from 'react';
+import React, {Suspense, lazy} from 'react';
 import {HashRouter, Route} from 'react-router-dom';
 
-import Main from './components/comparison/Comparison';
-import Record from './components/record/Record';
+const Main = lazy(() => import('./components/comparison/Comparison'));
+const Record = lazy(() => import('./components/record/Record'));
 
 function App() {
 
 	return (
 		<HashRouter>
-			<Route exact path="/" component={Main}/>
-			<Route path="/record" component={Record}/>
+			<Suspense fallback={<></>}>
+				<Route exact path="/" component={Main}/>
+				<Route path="/record" component={Record}/>
+			</Suspense>
 		</HashRouter>
 	);
 }
