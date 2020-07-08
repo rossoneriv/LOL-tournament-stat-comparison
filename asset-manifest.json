@@ -1,24 +1,24 @@
 {
   "files": {
-    "static/js/0.ba5e0ef1.chunk.js": "/LOL-tournament-stat-comparison/static/js/0.ba5e0ef1.chunk.js",
+    "static/css/0.143f9196.chunk.css": "/LOL-tournament-stat-comparison/static/css/0.143f9196.chunk.css",
+    "static/js/0.d6447ed6.chunk.js": "/LOL-tournament-stat-comparison/static/js/0.d6447ed6.chunk.js",
     "main.css": "/LOL-tournament-stat-comparison/static/css/main.1359096b.chunk.css",
-    "main.js": "/LOL-tournament-stat-comparison/static/js/main.a7e8f2fd.chunk.js",
-    "runtime-main.js": "/LOL-tournament-stat-comparison/static/js/runtime-main.f78ec1e0.js",
+    "main.js": "/LOL-tournament-stat-comparison/static/js/main.1cced759.chunk.js",
+    "runtime-main.js": "/LOL-tournament-stat-comparison/static/js/runtime-main.2ada1822.js",
     "static/js/3.d30fab69.chunk.js": "/LOL-tournament-stat-comparison/static/js/3.d30fab69.chunk.js",
-    "static/css/4.143f9196.chunk.css": "/LOL-tournament-stat-comparison/static/css/4.143f9196.chunk.css",
-    "static/js/4.a3dde4b6.chunk.js": "/LOL-tournament-stat-comparison/static/js/4.a3dde4b6.chunk.js",
-    "static/js/5.dea2da3c.chunk.js": "/LOL-tournament-stat-comparison/static/js/5.dea2da3c.chunk.js",
-    "static/js/6.42f5c87c.chunk.js": "/LOL-tournament-stat-comparison/static/js/6.42f5c87c.chunk.js",
+    "static/js/4.74c9b5a6.chunk.js": "/LOL-tournament-stat-comparison/static/js/4.74c9b5a6.chunk.js",
+    "static/js/5.bddc1537.chunk.js": "/LOL-tournament-stat-comparison/static/js/5.bddc1537.chunk.js",
+    "static/js/6.9965e9ce.chunk.js": "/LOL-tournament-stat-comparison/static/js/6.9965e9ce.chunk.js",
     "index.html": "/LOL-tournament-stat-comparison/index.html",
-    "precache-manifest.89a143abbc4f00b2151407ddc1c4d3ff.js": "/LOL-tournament-stat-comparison/precache-manifest.89a143abbc4f00b2151407ddc1c4d3ff.js",
+    "precache-manifest.d5311ef1f80bd0156d0cbb1e04adef02.js": "/LOL-tournament-stat-comparison/precache-manifest.d5311ef1f80bd0156d0cbb1e04adef02.js",
     "service-worker.js": "/LOL-tournament-stat-comparison/service-worker.js",
-    "static/js/0.ba5e0ef1.chunk.js.LICENSE.txt": "/LOL-tournament-stat-comparison/static/js/0.ba5e0ef1.chunk.js.LICENSE.txt",
+    "static/js/0.d6447ed6.chunk.js.LICENSE.txt": "/LOL-tournament-stat-comparison/static/js/0.d6447ed6.chunk.js.LICENSE.txt",
     "static/js/3.d30fab69.chunk.js.LICENSE.txt": "/LOL-tournament-stat-comparison/static/js/3.d30fab69.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.f78ec1e0.js",
+    "static/js/runtime-main.2ada1822.js",
     "static/js/3.d30fab69.chunk.js",
     "static/css/main.1359096b.chunk.css",
-    "static/js/main.a7e8f2fd.chunk.js"
+    "static/js/main.1cced759.chunk.js"
   ]
 }
