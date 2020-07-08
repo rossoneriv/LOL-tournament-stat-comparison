@@ -2,6 +2,7 @@ import React from 'react';
 import Form from 'react-bootstrap/Form';
 import styled from 'styled-components';
 import styledComponentsTS from 'styled-components-ts';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import {MainContainer, MainWrapper, Footer} from '../common';
 import usePlayer from '../../hooks/usePlayer';
